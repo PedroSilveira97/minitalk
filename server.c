@@ -6,7 +6,7 @@
 /*   By: ptavares <ptavares@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/30 13:37:25 by ptavares          #+#    #+#             */
-/*   Updated: 2025/09/30 14:18:04 by ptavares         ###   ########.fr       */
+/*   Updated: 2025/09/30 15:22:29 by ptavares         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ void	handle_signal(int signal)
 	bit_index++;
 	if (bit_index == 8)
 	{
-		if (current_char == END_TRANSMISSON)
+		if (current_char == END_TRANSMISSION)
 			ft_printf("\n");
 		else
 			ft_printf("%c", current_char);
